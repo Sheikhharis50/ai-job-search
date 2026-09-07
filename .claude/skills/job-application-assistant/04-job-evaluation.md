@@ -123,7 +123,7 @@ Does this role advance career goals and contain tasks that energize?
 
 **Life situation alignment:** Consider personal constraints:
 - **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: Remote only (full-time or contract), no relocation. Requires full working-hours overlap with a UK, EU, UAE, or US team from Lahore, Pakistan.
+- **Flexibility**: Remote only (full-time or contract), no relocation. ~~Requires full working-hours overlap with a UK, EU, UAE, or US team from Lahore, Pakistan.~~ **(working-hours-overlap requirement SUSPENDED 2026-09-07 by user request - do not apply it when scoring Location; remote roles pass regardless of the team's timezone. Text kept for easy re-enabling.)**
 - **Professional development**: Deepening AI-product frontend expertise (streaming UI, LLM-integrated features)
 
 ### 6. Salary Benchmark (Optional)

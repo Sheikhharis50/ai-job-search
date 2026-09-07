@@ -67,7 +67,14 @@ site:linkedin.com/jobs "Frontend Consultant" Remote
 
 ## Location Filter
 
-This is a remote-only search - no commute-distance filter applies. Instead, verify working-hours overlap:
+This is a remote-only search - no commute-distance filter applies.
+
+> **Working-hours-overlap check SUSPENDED 2026-09-07 by user request.** Until re-enabled,
+> do **not** downgrade, skip, or FLAG a remote role because its team's timezone leaves a
+> poor overlap with Lahore. Any remote role passes the Location Filter on timezone grounds.
+> Relocation / on-site is still a deal-breaker (see below). The graded overlap tiers below
+> are kept verbatim for easy re-enabling - ignore them for now.
+
 - **Ideal**: UK, EU, UAE, or US-based teams (full or majority overlap with Lahore, Pakistan working hours per the candidate's stated availability)
 - **Acceptable**: Any fully async / flexible-hours remote role
 - **Borderline**: Teams requiring overlap outside UK/EU/UAE/US that still leave a reasonable working window

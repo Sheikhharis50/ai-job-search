@@ -90,7 +90,10 @@ No formal assessment completed. See `02-behavioral-profile.md` for LinkedIn-infe
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
 - Remote only (full-time or contract) - no relocation
+<!-- SUSPENDED 2026-09-07 by user request - do not enforce; keep the text so it can be re-enabled later.
 - Must have working-hours overlap with a UK, EU, UAE, or US team
+-->
+- (working-hours-overlap constraint currently SUSPENDED - see commented rule above; remote roles are accepted regardless of the team's timezone until this is re-enabled)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

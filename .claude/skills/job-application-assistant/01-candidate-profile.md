@@ -16,7 +16,7 @@ framework_version: 1.1.1
 - **GitHub:** https://github.com/MuhammadUmar740
 - **Portfolio:** https://umer-riaz.vercel.app/
 - **Status:** Employed (Senior Frontend Developer at SlySol), open to new opportunities
-- **Constraints:** Based in Lahore, Pakistan. Seeking remote roles (full-time or contract) with full working-hours overlap for UK, EU, UAE, or US teams.
+- **Constraints:** Based in Lahore, Pakistan. Seeking remote roles (full-time or contract). ~~with full working-hours overlap for UK, EU, UAE, or US teams~~ (working-hours-overlap constraint SUSPENDED 2026-09-07 by user request - not enforced; text kept for re-enabling later.)
 
 ### Languages
 <!-- Every language you can work in professionally, with your honest level. Used by the
