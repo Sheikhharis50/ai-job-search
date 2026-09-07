@@ -52,7 +52,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Umer Riaz - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -62,13 +62,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Umer}{Riaz}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Lahore, Pakistan}{}{}
+\phone[mobile]{+92-301-6254253}
+\email{umerriaz4774@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/muhammadumarriaz/}{LinkedIn}, \href{https://github.com/MuhammadUmar740}{GitHub}, \href{https://umer-riaz.vercel.app/}{Portfolio}}
 
 \begin{document}
 \makecvtitle
@@ -130,11 +130,11 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For AI-product / streaming-UI frontend roles:**
+> Senior Frontend Developer with 4+ years building the part of AI-powered SaaS products users actually touch: live data, streaming LLM output, and data-heavy dashboards. Built the dashboard and data visualization layer for Datashake, an enterprise data infrastructure platform, cutting initial load time by 80% through query optimization and virtualized rendering. Built streaming UI for an AI podcast summarization product handling live LLM responses without layout jank or dropped tokens, and AI-powered intake automation converting unstructured documents into structured data via OCR and LLM extraction. A CS background with a Machine Learning specialization means I design interfaces around streaming responses, model latency, and imperfect outputs rather than fighting them.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For general senior frontend / SaaS product roles:**
+> Senior Frontend Developer with 4+ years of experience building production web applications with React.js, Next.js, and TypeScript across healthcare, e-commerce, and multi-tenant SaaS products. Delivered a healthcare platform's patient and provider portals as part of a replatforming that drove 55% month-over-month growth and a 40% reduction in case processing time, and shipped multi-tenant SaaS dashboards with role-based views serving 100+ daily users. Comfortable owning frontend delivery end to end, from Figma-to-code through API integration to production.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

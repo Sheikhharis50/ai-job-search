@@ -39,6 +39,48 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
+## STAR Candidates (Complete Manually)
+
+### Datashake dashboard load-time optimization
+**Source:** CV/LinkedIn - Senior Frontend Developer, SlySol
+**What happened:** Built the dashboard and data visualization layer for Datashake, an enterprise data infrastructure platform, and cut initial load time by 80% through query optimization and virtualized rendering.
+**Why it matters:** Performance optimization, technical depth on a specific problem, measurable impact.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Healthcare portal replatforming
+**Source:** CV/LinkedIn - Senior Frontend Developer, SlySol
+**What happened:** Built the frontend for a healthcare platform's patient and provider portals with real-time case tracking, as part of a replatforming that contributed to 55% month-over-month growth and a 40% reduction in case processing time.
+**Why it matters:** Cross-functional collaboration on a replatforming effort, business-impact framing, real-time features.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Streaming UI for AI podcast summarization (PodSkim)
+**Source:** CV/LinkedIn - Senior Frontend Developer, SlySol
+**What happened:** Built streaming UI for PodSkim, rendering live LLM output without layout shift or dropped tokens.
+**Why it matters:** AI-product frontend expertise, handling streaming/asynchronous data, UX under technical constraints (model latency, imperfect outputs).
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### AI-powered intake automation (OCR + LLM extraction)
+**Source:** LinkedIn - Senior Frontend Developer, SlySol
+**What happened:** Built AI-powered intake automation converting unstructured documents (forms, scans, reports) into structured data using OCR and LLM-based extraction, for dental and healthcare practices.
+**Why it matters:** End-to-end ownership of an AI feature, translating ambiguous/messy input into structured product value.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"

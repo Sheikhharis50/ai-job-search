@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** React.js, Next.js, TypeScript, JavaScript (ES6+), Redux, GraphQL, REST APIs, Tailwind CSS/Material UI/Chakra UI, streaming UI / real-time data, AI-powered product frontends (LLM output rendering, OCR/LLM document extraction)
+**Moderate match areas:** Node.js/Express, MongoDB/PostgreSQL/MySQL, React Native, AWS/Azure/GCP, WebSocket, Firebase
+**Weak match areas:** Deep backend/infra ownership, mobile-native development beyond React Native, non-JS backend languages
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Senior/mid-level frontend engineering roles, React/Next.js/TypeScript product work, AI-powered SaaS product frontends, data-heavy dashboard/data-visualization work
+**Moderate:** Full-stack roles with a React frontend + Node backend, healthcare/fintech/e-commerce SaaS domains
+**Entry-level:** Backend-heavy or infra/DevOps-focused roles
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -95,6 +95,11 @@ Does the role and company culture match the behavioral profile?
 - Remote with occasional office: PASS
 - Requires relocation: FAIL (deal-breaker)
 - Frequent international travel: FLAG (discuss with user)
+- Employer (company or staffing/recruiting agency) headquartered in or primarily hiring out of
+  India, Bangladesh, Sri Lanka, or Pakistan: FAIL (candidate preference — see
+  `job-scraper/search-queries.md`'s Employer Exclusion Filter for the exact scope and reasoning).
+  Applies to the employer's base, not the role's remote-eligibility region; does not apply to a
+  Western/global company that merely has an engineering office in one of these countries.
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -107,19 +112,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Progress toward Senior/Lead Frontend Engineer roles with an AI-product focus
+- Continue building AI-powered product frontends (streaming LLM UI, AI-driven automation features)
+- Grow ownership over dashboard/data-visualization and data-heavy product surfaces
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
+- Tasks that energize: AI-powered features, streaming/real-time UI, data-heavy dashboards, greenfield product frontend work
 - Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Non-task factors: high autonomy, fast-moving/ships-fast environment, minimal bureaucracy
 
 **Life situation alignment:** Consider personal constraints:
 - **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Flexibility**: Remote only (full-time or contract), no relocation. Requires full working-hours overlap with a UK, EU, UAE, or US team from Lahore, Pakistan.
+- **Professional development**: Deepening AI-product frontend expertise (streaming UI, LLM-integrated features)
 
 ### 6. Salary Benchmark (Optional)
 

@@ -1,4 +1,4 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Umer Riaz
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
@@ -33,7 +33,7 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Umer Riaz - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -41,15 +41,16 @@
 }}
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
+\name{Umer}{Riaz}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\address{Lahore, Pakistan}{}{}
+\phone[mobile]{+92-301-6254253}
+\email{umerriaz4774@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/muhammadumarriaz/}{LinkedIn}, \href{https://github.com/MuhammadUmar740}{GitHub}, \href{https://umer-riaz.vercel.app/}{Portfolio}}
 
 \begin{document}
 
@@ -60,7 +61,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Senior Frontend Developer with 4+ years of experience building production web applications with React.js, Next.js, and TypeScript, specializing in AI-powered SaaS products and data-heavy dashboards. Built the dashboard and data visualization layer for an enterprise data platform end to end, and delivered frontend work on healthcare, e-commerce, and multi-tenant SaaS products as part of distributed teams. Available for remote roles with full overlap of UK, EU, and Gulf working hours.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -70,15 +71,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Frontend}: React.js, Next.js, TypeScript, JavaScript (ES6+), React Native, HTML5, CSS3
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{State \& Data}: Redux, React Query, REST APIs, GraphQL, WebSocket, Firebase
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{UI \& Styling}: Tailwind CSS, Material UI, Chakra UI, Bootstrap, Figma-to-code
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{AI Product Frontend}: Streaming LLM UI, OCR/LLM document extraction, data-heavy dashboards
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Cloud \& Tooling}: AWS, Microsoft Azure, Google Cloud, Git, GitHub, CI/CD, Jira
 
 \end{itemize}
 
@@ -91,31 +92,34 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Jul 2025-Present}{Senior Frontend Developer}{SlySol}{Lahore, Pakistan}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1 - be specific, use numbers where possible]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
-    \item {[Achievement or responsibility 4]}
+    \item {Built the dashboard and data visualization layer for Datashake, an enterprise data infrastructure platform, cutting initial load time by 80\% through query optimization and virtualized rendering}
+    \item {Developed the frontend for a healthcare platform's patient and provider portals with real-time case tracking, contributing to 55\% month-over-month growth and a 40\% reduction in case processing time}
+    \item {Built streaming UI for an AI podcast summarization product, rendering live LLM output without layout shift or dropped tokens}
+    \item {Built AI-powered intake automation converting unstructured documents into structured data using OCR and LLM-based extraction}
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Aug 2024-Jul 2025}{Associate Software Engineer}{SlySol}{Lahore, Pakistan}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
+    \item {Built responsive web interfaces using React.js, Next.js, TypeScript, and modern UI libraries}
+    \item {Integrated APIs and used Redux for state management across multiple modules}
+    \item {Converted Figma designs into clean, functional frontend experiences}
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Jun 2023-May 2024}{Frontend Web Developer}{SolutionSurface}{Lahore, Pakistan}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
+    \item {Built reusable UI component libraries adopted across multiple client projects, improving design consistency and development speed}
+    \item {Managed application state with Redux and maintained consistent frontend data flow}
 \end{itemize}}}
 
 \end{itemize}
@@ -128,14 +132,8 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2018-2022}{BSc in Computer Science (Machine Learning specialization)}{National College of Business Administration and Economics}{Lahore, Pakistan}{}{\vspace{1pt}
+Machine Learning specialization.
 }}
 
 \end{itemize}
@@ -147,27 +145,18 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item {[Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).}
+\item {English (fluent/professional).}
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     CERTIFICATIONS
 % ============================================================
 
-\section{Publications}
+\section{Certifications}
 \vspace{1pt}
 \begin{itemize}
-\item {[Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{Certified React 18 Developer}}
+\item{\textbf{React Native}}
 \end{itemize}
 
 % ============================================================

@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Umer Riaz
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Umer Riaz, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +16,81 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Umer Riaz
+- **Location:** Lahore, Pakistan (remote only, no relocation)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | English | Fluent / Professional |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English <!-- English unless your market expects otherwise; /setup asks -->
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed (Senior Frontend Developer at SlySol), open to new opportunities
+- **LinkedIn headline:** "Senior Frontend Developer | React.js | Next.js | TypeScript"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **BSc in Computer Science (Machine Learning specialization)** (2018-2022) - National College of Business Administration and Economics, Lahore, Pakistan
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Senior Frontend Developer** (Jul 2025 - Present) - **SlySol** (Lahore, Pakistan)
+  - Built the dashboard and data visualization layer for Datashake, an enterprise data infrastructure platform, cutting initial load time by 80% through query optimization and virtualized rendering
+  - Built streaming UI for PodSkim, an AI podcast summarization product, rendering live LLM output without layout shift or dropped tokens
+  - Built AI-powered intake automation converting unstructured documents into structured data using OCR and LLM-based extraction
+- **Associate Software Engineer** (Aug 2024 - Jul 2025) - **SlySol** (Lahore, Pakistan)
+  - Built responsive web interfaces using React.js, Next.js, TypeScript, and modern UI libraries
+  - Integrated APIs and used Redux for state management across multiple modules
+- **Frontend Web Developer** (Jun 2023 - May 2024) - **SolutionSurface** (Lahore, Pakistan)
+  - Built reusable UI component libraries adopted across multiple client projects
+- **Frontend Developer** (Mar 2022 - Feb 2023) - **Surfiq Technologies** (Lahore, Pakistan)
+  - Developed responsive frontend interfaces using React.js, Next.js, JavaScript, and TypeScript
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** React.js, Next.js, TypeScript, JavaScript (ES6+), Redux, GraphQL, REST APIs
+- **Secondary:** Node.js/Express, MongoDB/PostgreSQL/MySQL, React Native, WebSocket, Firebase
+- **Domain:** AI-powered SaaS product frontends, streaming/real-time LLM UI, data-heavy dashboards, healthcare and multi-tenant SaaS platforms
+- **Software:** AWS, Azure, GCP, Digital Ocean, Git/GitHub/GitLab, CI/CD, Jira, Postman
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Certified React 18 Developer**
+- **React Native**
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None.
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None listed.
 
 ### Behavioral Profile
 <!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
+No formal assessment completed. See `02-behavioral-profile.md` for LinkedIn-inferred observations (labeled and unverified).
+- **Strengths:** Outcome-oriented framing, comfortable owning ambiguous/technical problems (streaming data, imperfect LLM output), domain-technical bridge-building (ML background applied to AI product frontends)
 - **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Thrives in:** Fast-moving, high-autonomy, ships-fast environments
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- AI-powered product features (streaming LLM UI, AI-driven automation)
+- Data-heavy dashboards and data visualization work
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- AI/SaaS products: companies building AI-powered features (streaming UI, LLM-integrated products)
+- Broader SaaS/product companies: healthcare, e-commerce, multi-tenant SaaS
 
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Remote only (full-time or contract) - no relocation
+- Must have working-hours overlap with a UK, EU, UAE, or US team
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
