@@ -3639,7 +3639,7 @@
       "posted_date": "2026-08-30",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "expired",
       "portal": "freehire-search",
       "source": "cli"
     },
@@ -3651,7 +3651,7 @@
       "posted_date": "2026-08-26",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "expired",
       "portal": "freehire-search",
       "source": "cli"
     },
@@ -3663,7 +3663,7 @@
       "posted_date": "2026-09-01",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "expired",
       "portal": "freehire-search",
       "source": "cli"
     },
@@ -3675,9 +3675,24 @@
       "posted_date": "2026-08-25",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "ranked",
       "portal": "freehire-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 44,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "FAIL",
+      "language_gate": "PASS",
+      "strengths": [
+        "Frontend stack overlaps with preferred qualifications: TypeScript, Next.js, Redux, Material-UI, React",
+        "AI-native engineering culture explicitly expects AI coding assistants (Claude Code, Copilot, Cursor), matching candidate's Claude Code usage",
+        "Includes data-visualization/dashboarding surface (ECharts, ApexCharts, D3, Plotly) aligning with candidate's dashboard/data-viz experience"
+      ],
+      "gaps": [
+        "Explicitly an entry-level role (0-2 years experience) — seniority mismatch against candidate's ~4 years and current Senior title",
+        "Full-stack scope leans heavily backend/JVM: requires Python/FastAPI, SQL, exposure to Java/Scala — none in candidate's stack",
+        "Role is scoped to Middle East & North Africa (Amman, Jordan) — not framed as open to Pakistan-based remote applicants"
+      ]
     },
     "https://djinni.co/jobs/846465-full-stack-net-engineer/?utm_source=freehire.me": {
       "title": "Full Stack .NET Engineer",
@@ -3687,7 +3702,7 @@
       "posted_date": "2026-09-03",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "expired",
       "portal": "freehire-search",
       "source": "cli"
     },
@@ -3699,7 +3714,7 @@
       "posted_date": "2026-09-07",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "expired",
       "portal": "freehire-search",
       "source": "cli"
     },
@@ -3711,9 +3726,23 @@
       "posted_date": "2026-09-06",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "ranked",
       "portal": "freehire-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 48,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "FAIL",
+      "language_gate": "PASS",
+      "strengths": [
+        "Core stack overlap: JavaScript/TypeScript and React proficiency, plus Node.js, API design, and AWS experience",
+        "AI/LLM integration capability listed as a requirement, matching candidate's AI-product frontend experience"
+      ],
+      "gaps": [
+        "Hard location fail: applicants must be authorized to work in the United States and expected to work on-site in San Francisco — candidate is Lahore-based, remote-only, no relocation",
+        "Role explicitly seeks a Mechanical/General Engineer background for industrial/manufacturing systems — no matching domain experience",
+        "Focus is industrial/manufacturing software, outside candidate's target AI-SaaS/dashboard sectors"
+      ]
     },
     "https://job-boards.eu.greenhouse.io/orcristtechnologies/jobs/4747053101?utm_source=freehire.me": {
       "title": "Full-Stack Engineer (TypeScript - Prototyping)",
@@ -3723,9 +3752,24 @@
       "posted_date": "2026-09-07",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "ranked",
       "portal": "freehire-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 57,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "FAIL",
+      "language_gate": "PASS",
+      "strengths": [
+        "Strong frontend match: React/Next.js proficiency plus TypeScript production web-app experience",
+        "Culture emphasizes rapid iteration and high ownership — compatible with candidate's ships-fast, ambiguity-comfortable profile",
+        "Nice-to-have real-time UI (WebSockets/WebRTC) and D3 visualization align with candidate's streaming UI and dashboard experience"
+      ],
+      "gaps": [
+        "Hard location fail: must be legally authorized to work in Germany, EU/NATO citizenship preferred for export-controlled projects, plus regular in-office prototyping sprints in Berlin",
+        "Kubernetes/GitOps and deep infra ownership fall in candidate's weak-match zone",
+        "PostgreSQL/search integration and regulated-systems nice-to-haves are unverified gaps"
+      ]
     },
     "https://jobs.ashbyhq.com/scale%20army%20careers/889e3259-d95a-437c-8bc3-ebf689ecf3a3?utm_source=freehire.me": {
       "title": "Full Stack TypeScript Engineer – Next.js & AI",
@@ -3735,9 +3779,23 @@
       "posted_date": "2026-08-24",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "ranked",
       "portal": "freehire-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 80,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "FAIL",
+      "language_gate": "PASS",
+      "strengths": [
+        "Very strong technical overlap: Next.js 16 App Router, React 19, TypeScript, Tailwind CSS, and integrating Claude LLM APIs for AI-powered features — near-direct match to candidate's PodSkim streaming-LLM and AI-intake-automation work",
+        "Real-time/serverless backend work (Convex real-time database) matches candidate's streaming/real-time UI strength",
+        "Role is explicitly AI-product frontend + full-stack ownership, matching candidate's career goal of building AI-powered product frontends"
+      ],
+      "gaps": [
+        "Hard location fail: posting states the role is open to candidates based in LATAM, Africa, and Eastern Europe only — Pakistan is not in this list, so candidate is explicitly excluded by region regardless of remote status",
+        "Staffing/placement structure (scale army careers supporting a US client) means less direct company culture visibility"
+      ]
     },
     "https://jobs.smartrecruiters.com/SoftwareMind/744000146885949--vdi-full-stack-engineer-kotlin-typescript-react-?utm_source=freehire.me": {
       "title": "[VDI] Full-Stack Engineer (Kotlin + TypeScript/React)",
@@ -3747,9 +3805,23 @@
       "posted_date": "2026-09-02",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "ranked",
       "portal": "freehire-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 44,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "FAIL",
+      "language_gate": "PASS",
+      "strengths": [
+        "Frontend stack match: TypeScript and React listed as critical skills",
+        "Unit testing and framework-migration experience is a transferable skill for candidate's senior-level work"
+      ],
+      "gaps": [
+        "Hard location fail: accepting applications from LATAM countries only — explicitly excludes Pakistan-based candidates",
+        "Core backend requirement is Kotlin/Gradle — a non-JS backend stack, candidate's weak-match zone",
+        "This is a 3-month legacy/EOL modernization engagement, not building toward candidate's AI-product/dashboard career goals"
+      ]
     },
     "https://careers-rws.icims.com/jobs/6658/staff-engineer---full-stack-typescript-developer/job?utm_source=freehire.me": {
       "title": "Staff Engineer - Full Stack TypeScript Developer",
@@ -3759,9 +3831,24 @@
       "posted_date": "2026-08-25",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "ranked",
       "portal": "freehire-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 67,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "FAIL",
+      "language_gate": "PASS",
+      "strengths": [
+        "Core stack overlap is strong: TypeScript, React, GraphQL/REST APIs are all primary skills for the candidate",
+        "Posting explicitly seeks candidates with real-world experience with vibe coding using AI tools like Claude, Cursor, or CoPilot - aligns with candidate's Claude Code usage",
+        "Staff Engineer level is a natural step up from Senior, matching the candidate's career progression goal"
+      ],
+      "gaps": [
+        "Job locations are exclusively UK offices (Cardiff/Maidenhead/Sheffield) with regular travel to Bristol and a hybrid tag - incompatible with a Lahore-based, remote-only, no-relocation candidate",
+        "Requires Electron desktop-app development and XSL/XML data transformation - neither appears in the candidate's skill set",
+        "Domain is Aerospace & Defence technical-content publishing (S1000D), not an AI-product or data-dashboard focus"
+      ]
     },
     "https://djinni.co/jobs/844999-senior-full-stack-engineer-python-django-reac/?utm_source=freehire.me": {
       "title": "Senior Full-Stack Engineer (Python/Django, React/TypeScript)",
@@ -3771,7 +3858,7 @@
       "posted_date": "2026-09-04",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "expired",
       "portal": "freehire-search",
       "source": "cli"
     },
@@ -3783,7 +3870,7 @@
       "posted_date": "2026-09-06",
       "deadline": null,
       "fit": "low",
-      "status": "new",
+      "status": "expired",
       "portal": "freehire-search",
       "source": "cli"
     },
@@ -3795,9 +3882,24 @@
       "posted_date": "2026-09-07",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "ranked",
       "portal": "freehire-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 35,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "FAIL",
+      "language_gate": "PASS",
+      "strengths": [
+        "TypeScript and React are explicitly required for the frontend half of the role, matching primary skills",
+        "Lists agentic software development tools as a nice-to-have, aligning with candidate's AI-tooling experience",
+        "English fluency requirement matches candidate's declared level"
+      ],
+      "gaps": [
+        "Requires Go/Python backend work and deep geospatial-domain expertise (PostGIS, MapLibre/deck.gl, coordinate systems, spatial indexing) - none of which appear in the candidate's profile",
+        "Posting states must be legally authorized to work in Germany with remote-first work in Germany and regular team sessions in Berlin - incompatible with a Lahore-based, remote-only, no-relocation candidate",
+        "Domain (GEOINT/geospatial analytics) is unrelated to the candidate's target AI-product/streaming-UI/data-dashboard focus"
+      ]
     },
     "https://titandxp.com/careers/?utm_source=freehire.me": {
       "title": "Full Stack Engineer",
@@ -3807,7 +3909,7 @@
       "posted_date": "2026-08-27",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "expired",
       "portal": "freehire-search",
       "source": "cli"
     },
@@ -3819,9 +3921,23 @@
       "posted_date": "2026-08-25",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "ranked",
       "portal": "freehire-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 45,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "FAIL",
+      "language_gate": "PASS",
+      "strengths": [
+        "React/TypeScript frontend work overlaps with core skillset",
+        "Small, founder-close team with end-to-end ownership matches high-autonomy preference"
+      ],
+      "gaps": [
+        "Posting specifies remote position based in Gauteng, South Africa, relocation not supported - fails location constraint",
+        "Core backend stack is Python/FastAPI plus Linux/CI-CD administration, a weak match against candidate's Node/Express-oriented backend experience",
+        "No AI-product or dashboard/data-viz angle - doesn't build toward career goals"
+      ]
     },
     "https://in.linkedin.com/jobs/view/senior-fullstack-engineer-at-aifise-4460810151": {
       "title": "Senior Fullstack Engineer",
@@ -4119,9 +4235,23 @@
       "posted_date": "2026-08-26",
       "deadline": null,
       "fit": "high",
-      "status": "new",
+      "status": "ranked",
       "portal": "linkedin-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 85,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "FAIL",
+      "language_gate": "PASS",
+      "strengths": [
+        "Direct match on TypeScript/JavaScript/React plus GenAI UI, streaming (WebSockets/SSE), and LLM backend integration - core strength area",
+        "Responsibilities center on rendering AI process output in responsive UI, closely mirroring PodSkim streaming-LLM-UI experience",
+        "Strongly aligned with career goal of AI-product frontend work"
+      ],
+      "gaps": [
+        "Posting lists a single work location (United States) with US-specific dual salary bands and no stated international-remote eligibility - reads as US-based-only, failing the no-relocation/remote-only constraint",
+        "No explicit culture/pace signals beyond generic work-life balance, flexible scheduling - can't confirm fast-moving/ships-fast fit"
+      ]
     },
     "https://ca.linkedin.com/jobs/view/senior-ai-engineer-at-manulife-4458696295": {
       "title": "Senior AI Engineer",
@@ -4275,9 +4405,23 @@
       "posted_date": "2026-09-06",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "ranked",
       "portal": "linkedin-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 76,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "FAIL",
+      "language_gate": "PASS",
+      "strengths": [
+        "Strong TypeScript/React/GraphQL/REST match with modern tooling (Vite, Vitest, Tailwind) close to current stack",
+        "Small, ambitious team that moves fast, thinks hard culture description matches thrive-in-fast-moving/high-autonomy profile",
+        "AI coding tools requirement plays to candidate's Claude Code / agentic-tooling experience"
+      ],
+      "gaps": [
+        "Listed as Hybrid, London, with 1-2 office visits monthly required - on-site presence requirement fails the remote-only/no-relocation constraint",
+        "No explicit AI-product-frontend or streaming-LLM-UI focus - general product engineering role, not a strong career-alignment lever"
+      ]
     },
     "https://uk.linkedin.com/jobs/view/product-engineer-at-few-far-4464333856": {
       "title": "Product Engineer",
@@ -4515,9 +4659,24 @@
       "posted_date": "2026-09-08",
       "deadline": null,
       "fit": "medium",
-      "status": "new",
+      "status": "ranked",
       "portal": "freehire-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 67,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "FAIL",
+      "language_gate": "PASS",
+      "strengths": [
+        "Strong core match on TypeScript, React, and Next.js with senior-level scope",
+        "Direct experience match: building maintainable React components, Next.js auth integration, relational-DB-backed apps",
+        "Explicit English/Full professional language requirement matches candidate's declared level exactly"
+      ],
+      "gaps": [
+        "Posting's structured work-location data specifies workLocationType Remote but country Poland - this is emagine's freelance/consulting marketplace, which typically requires in-country (Poland) registration/residency, failing the no-relocation constraint",
+        "PayloadCMS, Better Auth/NextAuth, and Drizzle ORM are not in the candidate's current stack (learnable gaps)",
+        "No culture/pace information beyond it being a freelance consulting engagement (duration >12 months) - can't confirm autonomy/pace fit"
+      ]
     },
     "https://djinni.co/jobs/845530-middle-senior-full-stack-engineer-frontend-fo/?utm_source=freehire.me": {
       "title": "Middle/Senior Full-Stack Engineer — Frontend Focus (React / Node.js / AWS)",
@@ -4635,9 +4794,24 @@
       "posted_date": "2026-09-01",
       "deadline": "2026-09-20",
       "fit": "high",
-      "status": "new",
+      "status": "ranked",
       "portal": "freehire-search",
-      "source": "cli"
+      "source": "cli",
+      "rank_score": 73,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-15",
+      "location_verdict": "PASS",
+      "language_gate": "PASS",
+      "strengths": [
+        "Directly targets AI-powered fullstack development - prompt engineering, AI harnesses, agentic coding workflows - matching candidate's existing Claude Code / agentic-tooling usage",
+        "Explicit English written/verbal proficiency requirement matches candidate's declared Fluent/Professional level",
+        "Fully remote with proactive, outcome-oriented, team-oriented expectations matching behavioral profile"
+      ],
+      "gaps": [
+        "Posting requires candidates based in regions that align with Pacific, Central, or Eastern U.S. time zones - a timezone/region alignment ask rather than physical relocation or citizenship, so not scored as a hard location fail, but worth the candidate's own judgment given Lahore-Eastern-US is a ~9-10hr offset",
+        "Stack leans backend/infra-heavy (Node, AWS, HIPAA-compliant data architecture) versus candidate's frontend-primary strength - moderate rather than strong technical match on the backend half",
+        "Deadline confirmed from posting: applications accepted until 2026-09-20, feedback expected by 2026-09-28"
+      ]
     },
     "https://en-id.whatjobs.com/pub_api__cpl__17156833__7105?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
       "title": "Senior Backend Engineer — Remote, AI-Driven Platform",
@@ -8188,6 +8362,630 @@
       "deadline": null,
       "fit": "medium",
       "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://de.linkedin.com/jobs/view/senior-frontend-engineer-%E2%80%93-sell-online-at-sumup-4450173870": {
+      "title": "Senior Frontend Engineer – Sell Online",
+      "company": "SumUp",
+      "url": "https://de.linkedin.com/jobs/view/senior-frontend-engineer-%E2%80%93-sell-online-at-sumup-4450173870",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-03",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://de.linkedin.com/jobs/view/senior-frontend-engineer-react-m-f-d-at-researchgate-4465540013": {
+      "title": "Senior Frontend Engineer - React (m/f/d)",
+      "company": "ResearchGate",
+      "url": "https://de.linkedin.com/jobs/view/senior-frontend-engineer-react-m-f-d-at-researchgate-4465540013",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-15",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://fi.linkedin.com/jobs/view/full-stack-application-developer-tieto-tech-consulting-m-f-d-at-tieto-4430464632": {
+      "title": "Full Stack Application Developer - Tieto Tech Consulting (m/f/d)",
+      "company": "Tieto",
+      "url": "https://fi.linkedin.com/jobs/view/full-stack-application-developer-tieto-tech-consulting-m-f-d-at-tieto-4430464632",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-12",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://en-za.whatjobs.com/pub_api__cpl__56999866__7122?geoID=521&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Senior Full-Stack Engineer — AI-Powered Grant Platform",
+      "company": "TGTC",
+      "url": "https://en-za.whatjobs.com/pub_api__cpl__56999866__7122?geoID=521&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-10T14:39:20Z",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://jobs.lever.co/jobgether/371d88f9-f682-4da6-94ae-a9c9809b3673?utm_source=freehire.me": {
+      "title": "Senior Full-Stack Engineer - AI Cost Visibility",
+      "company": "jobgether",
+      "url": "https://jobs.lever.co/jobgether/371d88f9-f682-4da6-94ae-a9c9809b3673?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-15T01:00:02Z",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://jobs.lever.co/jobgether/0b05698c-a204-4997-9dcb-9cd8f051b775?utm_source=freehire.me": {
+      "title": "Senior Full Stack AI-first Saas Engineer",
+      "company": "jobgether",
+      "url": "https://jobs.lever.co/jobgether/0b05698c-a204-4997-9dcb-9cd8f051b775?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14T12:15:19Z",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://jobs.ashbyhq.com/clickhouse/1c633f41-6c9f-46a2-87fa-25f846cd54ef?utm_source=freehire.me": {
+      "title": "Senior Software Engineer (Typescript / Backend) - AI/ML",
+      "company": "ClickHouse",
+      "url": "https://jobs.ashbyhq.com/clickhouse/1c633f41-6c9f-46a2-87fa-25f846cd54ef?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-10T10:03:53Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://wellfound.com/jobs/4562658-senior-full-stack-product-engineer-ai-enabled-saas?utm_source=freehire.me": {
+      "title": "Senior Full-Stack Product Engineer — AI-Enabled SaaS",
+      "company": "KosmosDX",
+      "url": "https://wellfound.com/jobs/4562658-senior-full-stack-product-engineer-ai-enabled-saas?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14T00:19:11Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://portal.emagine.org/jobs/180120/senior-front-end-software-engineer-azure-ai-applications-azure-h-f?utm_source=freehire.me": {
+      "title": "Senior Front End Software Engineer - Azure & AI Applications (Azure) (h/f)",
+      "company": "emagine",
+      "url": "https://portal.emagine.org/jobs/180120/senior-front-end-software-engineer-azure-ai-applications-azure-h-f?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-11T12:25:17Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://jobs.lever.co/jobgether/2fd660d1-ca2e-4b8b-a831-5729f30663e5?utm_source=freehire.me": {
+      "title": "Senior AI Back-end Engineer",
+      "company": "jobgether",
+      "url": "https://jobs.lever.co/jobgether/2fd660d1-ca2e-4b8b-a831-5729f30663e5?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-10T09:04:56Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://apply.workable.com/j/05B51D11C9?utm_source=freehire.me": {
+      "title": "Senior Full Stack Engineer, AI-First (Go / React)",
+      "company": "MMDSmart Ltd",
+      "url": "https://apply.workable.com/j/05B51D11C9?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-11T00:00:00Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://en-za.whatjobs.com/pub_api__cpl__57051868__7122?geoID=378&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Senior frontend developer (react)",
+      "company": "Placements24",
+      "url": "https://en-za.whatjobs.com/pub_api__cpl__57051868__7122?geoID=378&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-11T10:43:04Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://gamingtec.bamboohr.com/careers/527?utm_source=freehire.me": {
+      "title": "Senior Frontend Developer (React & React Native)",
+      "company": "gamingtec",
+      "url": "https://gamingtec.bamboohr.com/careers/527?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-09T00:00:00Z",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://www.careers-page.com/sproutsai/job/QX9V83XR?utm_source=freehire.me": {
+      "title": "Senior React Frontend Developer",
+      "company": "SproutsAI",
+      "url": "https://www.careers-page.com/sproutsai/job/QX9V83XR?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-15T00:07:14Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://en-za.whatjobs.com/pub_api__cpl__57227355__7122?geoID=576&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Senior frontend developer",
+      "company": "Placements24",
+      "url": "https://en-za.whatjobs.com/pub_api__cpl__57227355__7122?geoID=576&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-13T08:43:29Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://djinni.co/jobs/847868-senior-frontend-developer/?utm_source=freehire.me": {
+      "title": "Senior Frontend Developer",
+      "company": "Codebridge",
+      "url": "https://djinni.co/jobs/847868-senior-frontend-developer/?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-11T14:05:03Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://en-za.whatjobs.com/pub_api__cpl__56668646__7122?geoID=1208&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Remote Senior Frontend Developer",
+      "company": "Placements24",
+      "url": "https://en-za.whatjobs.com/pub_api__cpl__56668646__7122?geoID=1208&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-05T09:07:52Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://es.whatjobs.com/pub_api__cpl__347180564__7107?geoID=425&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Remote Full Stack Dev (React/Nest.js) - 2-Month Contract",
+      "company": "Talan Group",
+      "url": "https://es.whatjobs.com/pub_api__cpl__347180564__7107?geoID=425&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-11T10:46:05Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://en-za.whatjobs.com/pub_api__cpl__56669235__7122?geoID=99&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Full Stack Developer",
+      "company": "Placements24",
+      "url": "https://en-za.whatjobs.com/pub_api__cpl__56669235__7122?geoID=99&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-12T12:41:01Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://en-za.whatjobs.com/pub_api__cpl__57228212__7122?geoID=1106&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Senior full stack developer",
+      "company": "Placements24",
+      "url": "https://en-za.whatjobs.com/pub_api__cpl__57228212__7122?geoID=1106&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-13T08:43:35Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://es.linkedin.com/jobs/view/product-ai-engineer-65k%E2%82%AC-85k%E2%82%AC-at-joppy-4465755739": {
+      "title": "Product AI Engineer (65K€-85K€)",
+      "company": "Joppy",
+      "url": "https://es.linkedin.com/jobs/view/product-ai-engineer-65k%E2%82%AC-85k%E2%82%AC-at-joppy-4465755739",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://uk.linkedin.com/jobs/view/ai-product-engineer-at-magentic-4467204058": {
+      "title": "AI Product Engineer",
+      "company": "Magentic",
+      "url": "https://uk.linkedin.com/jobs/view/ai-product-engineer-at-magentic-4467204058",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://de.linkedin.com/jobs/view/ai-product-engineer-%E2%80%93-agentic-experience-all-genders-at-holidu-4419979266": {
+      "title": "AI Product Engineer – Agentic Experience (all genders)",
+      "company": "Holidu",
+      "url": "https://de.linkedin.com/jobs/view/ai-product-engineer-%E2%80%93-agentic-experience-all-genders-at-holidu-4419979266",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-13",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://de.linkedin.com/jobs/view/senior-ai-product-engineer-%E2%80%93-agentic-experience-all-genders-at-holidu-4419967966": {
+      "title": "Senior AI Product Engineer – Agentic Experience (all genders)",
+      "company": "Holidu",
+      "url": "https://de.linkedin.com/jobs/view/senior-ai-product-engineer-%E2%80%93-agentic-experience-all-genders-at-holidu-4419967966",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://kg.linkedin.com/jobs/view/product-engineer-at-improbable-4445529163": {
+      "title": "Product Engineer",
+      "company": "Improbable",
+      "url": "https://kg.linkedin.com/jobs/view/product-engineer-at-improbable-4445529163",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://uk.linkedin.com/jobs/view/senior-product-engineer-at-burns-sheehan-4467082523": {
+      "title": "Senior Product Engineer",
+      "company": "Burns Sheehan",
+      "url": "https://uk.linkedin.com/jobs/view/senior-product-engineer-at-burns-sheehan-4467082523",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://uk.linkedin.com/jobs/view/product-engineer-at-attio-4339482151": {
+      "title": "Product Engineer",
+      "company": "Attio",
+      "url": "https://uk.linkedin.com/jobs/view/product-engineer-at-attio-4339482151",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-12",
+      "deadline": null,
+      "fit": "medium",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://www.linkedin.com/jobs/view/senior-staff-full-stack-product-engineer-at-clear-street-4437596193": {
+      "title": "Senior / Staff Full-Stack Product Engineer",
+      "company": "Clear Street",
+      "url": "https://www.linkedin.com/jobs/view/senior-staff-full-stack-product-engineer-at-clear-street-4437596193",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-12",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://cz.linkedin.com/jobs/view/senior-fullstack-engineer-for-creators-group-at-apify-4464229626": {
+      "title": "Senior Fullstack Engineer for Creators group",
+      "company": "Apify",
+      "url": "https://cz.linkedin.com/jobs/view/senior-fullstack-engineer-for-creators-group-at-apify-4464229626",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://au.linkedin.com/jobs/view/senior-software-engineer-at-linktree-4465716099": {
+      "title": "Senior Software Engineer",
+      "company": "Linktree",
+      "url": "https://au.linkedin.com/jobs/view/senior-software-engineer-at-linktree-4465716099",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://au.linkedin.com/jobs/view/senior-software-engineer-at-linktree-4465723030": {
+      "title": "Senior Software Engineer",
+      "company": "Linktree",
+      "url": "https://au.linkedin.com/jobs/view/senior-software-engineer-at-linktree-4465723030",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14",
+      "deadline": null,
+      "fit": "medium",
+      "status": "skipped",
+      "portal": "linkedin-search",
+      "source": "cli"
+    },
+    "https://wellfound.com/jobs/4365647-software-engineer-web-saas-ai-product-development?utm_source=freehire.me": {
+      "title": "Software Engineer — Web, SaaS, AI & Product Development",
+      "company": "Moonsofts",
+      "url": "https://wellfound.com/jobs/4365647-software-engineer-web-saas-ai-product-development?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14T13:41:12Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://wellfound.com/jobs/3704100-full-stack-engineer?utm_source=freehire.me": {
+      "title": "Product Engineer (full-stack)",
+      "company": "Featurebase",
+      "url": "https://wellfound.com/jobs/3704100-full-stack-engineer?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14T00:19:09Z",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://jobs.lever.co/jobgether/e88a40cf-7404-4bf1-9a04-a0ea4952d36c?utm_source=freehire.me": {
+      "title": "Frontend Engineer",
+      "company": "jobgether",
+      "url": "https://jobs.lever.co/jobgether/e88a40cf-7404-4bf1-9a04-a0ea4952d36c?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14T14:34:56Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://jobs.ashbyhq.com/the-global-talent-co/fd1fa118-a3e2-4c7c-8181-25a7b92659f4?utm_source=freehire.me": {
+      "title": "Junior Full Stack Engineer – AI",
+      "company": "The Global Talent Co.",
+      "url": "https://jobs.ashbyhq.com/the-global-talent-co/fd1fa118-a3e2-4c7c-8181-25a7b92659f4?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-09T14:47:11Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://gorillalogic.bamboohr.com/careers/195?utm_source=freehire.me": {
+      "title": "Senior Fullstack React/Kotlin Engineer - GP, Remote: Colombia - Costa Rica, Fulltime",
+      "company": "gorillalogic",
+      "url": "https://gorillalogic.bamboohr.com/careers/195?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-10T00:00:00Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://co.whatjobs.com/pub_api__cpl__46233990__7093?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Remote Full-Stack Engineer: Node.js & React",
+      "company": "Deel",
+      "url": "https://co.whatjobs.com/pub_api__cpl__46233990__7093?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-15T10:04:45Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://jobs.lever.co/wpromote/44dbebcf-92a2-42bf-925e-ea7fa4804ca5?utm_source=freehire.me": {
+      "title": "Senior Software Engineer I, Full Stack",
+      "company": "wpromote",
+      "url": "https://jobs.lever.co/wpromote/44dbebcf-92a2-42bf-925e-ea7fa4804ca5?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-15T01:25:43Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://ar.whatjobs.com/pub_api__cpl__34254127__7080?geoID=3382&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Founding Full-Stack Engineer — Healthcare AI (Remote)",
+      "company": "A5 Talent Finders",
+      "url": "https://ar.whatjobs.com/pub_api__cpl__34254127__7080?geoID=3382&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-12T11:00:25Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://wellfound.com/jobs/4322330-full-stack-engineer?utm_source=freehire.me": {
+      "title": "Full stack engineer",
+      "company": "Akadenia",
+      "url": "https://wellfound.com/jobs/4322330-full-stack-engineer?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14T00:19:12Z",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://jobs.lever.co/jobgether/9e70ebe3-09cd-4252-b207-b302319d8157?utm_source=freehire.me": {
+      "title": "Frontend Developer (React)",
+      "company": "jobgether",
+      "url": "https://jobs.lever.co/jobgether/9e70ebe3-09cd-4252-b207-b302319d8157?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-10T02:13:29Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://es.whatjobs.com/pub_api__cpl__350130208__7107?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Senior Full Stack Engineer",
+      "company": "Duetto",
+      "url": "https://es.whatjobs.com/pub_api__cpl__350130208__7107?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-09T22:50:46Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://en-ae.whatjobs.com/pub_api__cpl__93547360__7102?geoID=1743&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Remote Full-Stack Engineer for Global Scale",
+      "company": "Deel",
+      "url": "https://en-ae.whatjobs.com/pub_api__cpl__93547360__7102?geoID=1743&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-09T14:37:25Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://en-ca.whatjobs.com/pub_api__cpl__144531423__7103?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Senior Full-Stack Engineer | Remote Canada | Stock Options",
+      "company": "Far Coder",
+      "url": "https://en-ca.whatjobs.com/pub_api__cpl__144531423__7103?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-08T13:19:17Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://es.whatjobs.com/pub_api__cpl__351458116__7107?geoID=5046&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Full-Stack Engineer (TypeScript/Node) — Remote-First",
+      "company": "Vancast",
+      "url": "https://es.whatjobs.com/pub_api__cpl__351458116__7107?geoID=5046&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-13T12:47:37Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://kindgeeks.breezy.hr/p/ae232f72af83-senior-full-stack-typescript-engineer-ai?utm_source=freehire.me": {
+      "title": "Senior Full Stack Typescript Engineer (AI)",
+      "company": "Kindgeek",
+      "url": "https://kindgeeks.breezy.hr/p/ae232f72af83-senior-full-stack-typescript-engineer-ai?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14T11:48:14Z",
+      "deadline": null,
+      "fit": "high",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://hh.ru/vacancy/137326468?utm_source=freehire.me": {
+      "title": "Senior Full-Stack Engineer (React / Node.js / TypeScript)",
+      "company": "Lucky Hunter",
+      "url": "https://hh.ru/vacancy/137326468?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14T12:45:41Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://uk.whatjobs.com/pub_api__cpl__533748464__7082?geoID=33&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Senior Full-Stack Engineer (Node/TypeScript) - Remote",
+      "company": "SR2 REC LTD",
+      "url": "https://uk.whatjobs.com/pub_api__cpl__533748464__7082?geoID=33&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-13T12:39:51Z",
+      "deadline": null,
+      "fit": "medium",
+      "status": "new",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://ar.whatjobs.com/pub_api__cpl__34206789__7080?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me": {
+      "title": "Semi-Senior Full-Stack Software Engineer (JavaScript/TypeScript)",
+      "company": "Workana",
+      "url": "https://ar.whatjobs.com/pub_api__cpl__34206789__7080?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-01T11:55:00Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://www.careers-page.com/m2talents/job/9376X6WY?utm_source=freehire.me": {
+      "title": "Full-Stack Engineer (m/f/d) – Health-Tech SaaS, Mental Health | Berlin, Hybrid",
+      "company": "m2TALENTS",
+      "url": "https://www.careers-page.com/m2talents/job/9376X6WY?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14T11:12:03Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://apply.workable.com/j/876996D5A3?utm_source=freehire.me": {
+      "title": "Full-Stack Engineer",
+      "company": "Acely",
+      "url": "https://apply.workable.com/j/876996D5A3?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-14T00:00:00Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
+      "portal": "freehire-search",
+      "source": "cli"
+    },
+    "https://djinni.co/jobs/848006-full-stack-engineer-data-cloud-aws-software/?utm_source=freehire.me": {
+      "title": "Full Stack Engineer. Data, Cloud (AWS), Software",
+      "company": "Tone Singleton",
+      "url": "https://djinni.co/jobs/848006-full-stack-engineer-data-cloud-aws-software/?utm_source=freehire.me",
+      "first_seen": "2026-09-15",
+      "posted_date": "2026-09-12T17:11:05Z",
+      "deadline": null,
+      "fit": "low",
+      "status": "skipped",
       "portal": "freehire-search",
       "source": "cli"
     }
