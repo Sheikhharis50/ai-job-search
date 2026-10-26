@@ -26,50 +26,52 @@ Queries are grouped by priority. Write **each category in every language from yo
 
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: AI Product Frontend Engineering
+### Priority 1: AI / LLM Engineering
 
-These match your strongest and most desired career direction: senior frontend roles building AI-powered product features.
-
-```
-site:linkedin.com/jobs "Senior Frontend Engineer" "AI" Remote
-site:linkedin.com/jobs "AI Product Engineer" Remote
-site:linkedin.com/jobs "LLM Frontend Engineer" Remote
-site:linkedin.com/jobs "Senior React Developer" Remote
-```
-
-### Priority 2: Frontend / Product Engineering (general)
-
-Broader senior frontend and product engineering roles.
+Production AI feature roles, the strongest match for the CV headline.
 
 ```
-site:linkedin.com/jobs "Frontend Engineer" React Next.js Remote
-site:linkedin.com/jobs "Product Engineer" React TypeScript Remote
-site:linkedin.com/jobs "Senior Frontend Developer" Remote
+site:linkedin.com/jobs "AI Engineer" LLM RAG Python Remote
+site:linkedin.com/jobs "Senior AI Engineer" LangChain Remote
+site:linkedin.com/jobs "LLM Engineer" Remote
+site:linkedin.com/jobs "Full Stack AI Engineer" Remote
 ```
 
-### Priority 3: Full Stack (React-leaning)
+### Priority 2: Senior Backend / Full-Stack (Node.js, NestJS, Python)
 
-Adjacent roles you could pivot into.
-
-```
-site:linkedin.com/jobs "Full Stack Developer" React Node Remote
-site:linkedin.com/jobs "Full Stack Engineer" TypeScript Remote
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Backend-heavy platform and API roles at Senior/Staff level.
 
 ```
-site:linkedin.com/jobs "React developer" Remote
-site:linkedin.com/jobs "Frontend Consultant" Remote
+site:linkedin.com/jobs "Senior Backend Engineer" Node.js NestJS Remote
+site:linkedin.com/jobs "Senior Full Stack Engineer" TypeScript Node.js Remote
+site:linkedin.com/jobs "Senior Python Engineer" FastAPI Django Remote
+site:linkedin.com/jobs "Staff Engineer" backend Remote
+```
+
+### Priority 3: Data Pipelines / Platform / API
+
+Adjacent roles using Celery pipelines, GraphQL/REST APIs and AWS/Terraform.
+
+```
+site:linkedin.com/jobs "Data Engineer" Python Celery AWS Remote
+site:linkedin.com/jobs "Platform Engineer" Terraform AWS Node.js Remote
+site:linkedin.com/jobs "GraphQL" "Backend Engineer" Remote
+```
+
+### Priority 4: Broader Technical
+
+Wider net for general senior engineering roles.
+
+```
+site:linkedin.com/jobs "Software Engineer" Python TypeScript Remote
+site:linkedin.com/jobs "Full Stack Developer" React Node Django Remote
 ```
 
 ## Location Filter
 
 This is a remote-only search - no commute-distance filter applies.
 
-> **Working-hours-overlap check SUSPENDED 2026-09-07 by user request.** Until re-enabled,
+> **Working-hours-overlap check OFF (carried over from the previous profile; confirm with the user).** Until enabled,
 > do **not** downgrade, skip, or FLAG a remote role because its team's timezone leaves a
 > poor overlap with Lahore. Any remote role passes the Location Filter on timezone grounds.
 > Relocation / on-site is still a deal-breaker (see below). The graded overlap tiers below

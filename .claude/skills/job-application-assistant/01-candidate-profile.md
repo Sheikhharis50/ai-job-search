@@ -4,106 +4,88 @@ framework_version: 1.1.1
 
 # Candidate Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all sections will be filled with your actual information -->
+<!-- Populated by /setup Path A from documents/cv/Hamza_Latif_Resume.pdf and documents/linkedin/ -->
 
 ## Identity
-- **Name:** Umer Riaz
-- **Location:** Lahore, Pakistan
-- **Phone:** +92-301-6254253
-- **Email:** umerriaz4774@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/muhammadumarriaz/
-- **GitHub:** https://github.com/MuhammadUmar740
-- **Portfolio:** https://umer-riaz.vercel.app/
-- **Status:** Employed (Senior Frontend Developer at SlySol), open to new opportunities
-- **Constraints:** Based in Lahore, Pakistan. Seeking remote roles (full-time or contract). ~~with full working-hours overlap for UK, EU, UAE, or US teams~~ (working-hours-overlap constraint SUSPENDED 2026-09-07 by user request - not enforced; text kept for re-enabling later.)
+- **Name:** Hamza Latif
+- **Location:** Lahore, Punjab, Pakistan
+- **Phone:** +92-370-0591197
+- **Email:** hamzalatif.dev@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/hamzalatifdev
+- **GitHub:** https://github.com/HamzaCodes05
+- **Portfolio:** None
+- **Status:** Employed (Senior Full Stack AI Engineer at SlySol), open to new opportunities
+- **Constraints:** Based in Lahore, Pakistan. Seeking fully remote Senior/Staff-track roles, no relocation. Working-hours overlap is not enforced (ASSUMPTION - confirm with user).
 
 ### Languages
-<!-- Every language you can work in professionally, with your honest level. Used by the
-Language Gate in 04-job-evaluation.md and by job-scraper/search-queries.md's query-language
-generation. Omit any language you don't actually work in - an undeclared language is treated as
-a hard no, not a gap to smooth over. -->
 
 | Language | Level | Notes |
 |----------|-------|-------|
-| English | Fluent / Professional | |
+| English | Fluent / Professional | Assumed from the English CV and LinkedIn - confirm; add any other working languages |
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| BSc Computer Science (Machine Learning specialization) | Oct 2018 - Oct 2022 | National College of Business Administration and Economics, Lahore, Pakistan | Machine Learning specialization |
-| Intermediate, FSc Pre-Engineering | Aug 2016 - Apr 2018 | Aspire College | - |
-| Matric, Computer Sciences | Mar 2014 - Mar 2016 | Allied School | - |
+| BSc Computer Science | Feb 2016 - Mar 2020 | University of Central Punjab (UCP), Lahore, Pakistan | - |
 
 ## Professional Experience
 
-### Senior Frontend Developer - SlySol (Jul 2025 - Present)
-Lahore, Pakistan
-- Built the dashboard and data visualization layer for Datashake, an enterprise data infrastructure platform, using React.js, Next.js, and TypeScript; cut initial load time by 80% through query optimization and virtualized rendering
-- Developed the frontend for a healthcare platform's patient and provider portals with real-time case tracking, as part of a replatforming that contributed to 55% month-over-month growth and a 40% reduction in case processing time
-- Built streaming UI for PodSkim, an AI podcast summarization product, rendering live LLM output without layout shift or dropped tokens
-- Delivered multi-tenant SaaS dashboards with role-based views and data-heavy tables serving 100+ daily users, using GraphQL and REST APIs
-- Built AI-powered intake automation, converting unstructured documents (forms, scans, reports) into structured data using OCR and LLM-based extraction, for dental and healthcare practices (MERN stack)
+### Senior Full Stack AI Engineer - SlySol (Apr 2023 - Present)
+Lahore, Punjab, Pakistan
+- Shipped LLM-powered document extraction using LangChain, RAG, OpenAI, Ollama, and OCR, processing 20,000 documents per month at 77% extraction accuracy
+- Led end-to-end delivery of full-stack products in TypeScript, React, Django, and FastAPI, serving 10,000 users across 20 client projects
+- Automated data pipelines across 80+ external sources using Celery (extraction, validation, transformation), cutting manual processing by 70%
+- Architected REST and GraphQL APIs with role-based access control powering dashboards and complex workflows, handling 10,000+ requests per day at 300 ms p95 latency
+- Reduced deployment time from 2 hours to 30 minutes (75%) by containerizing services and implementing Docker, Terraform, and CI/CD on AWS
+- Partnered with frontend, backend, and data teams to improve reliability and performance, reducing incident rate and downtime by 70%
 
-### Associate Software Engineer - SlySol (Aug 2024 - Jul 2025)
-Lahore, Pakistan
-- Built responsive web interfaces using React.js, Next.js, JavaScript, TypeScript, HTML, CSS, and modern UI libraries
-- Converted Figma designs and product requirements into clean, functional, user-friendly frontend experiences
-- Integrated APIs, handled frontend data flows, and improved application usability across multiple modules
-- Used Redux and state management patterns to improve application structure and maintainability
+### Software Engineer - Programmer Force (Oct 2021 - Mar 2023)
+Lahore, Punjab, Pakistan
+- Designed a modular ERP suite (Inventory, HR, Finance, CRM) adopted by 120 users across 30 teams
+- Cut API response times by 70% by moving heavy workflows to Celery background jobs
+- Optimized PostgreSQL schemas and queries for high-volume operations, reducing query time from 1 s to 200 ms
+- Built secure REST APIs with JWT, RBAC, validation, and third-party integrations
+- Integrated Stripe to automate payments and billing workflows
+- Reduced issue-resolution time by 40% by implementing centralized logging with the ELK Stack
 
-### Frontend Web Developer - SolutionSurface (Jun 2023 - May 2024)
-Lahore, Pakistan
-- Owned frontend feature delivery for client web applications using React.js, TypeScript, JavaScript, HTML5, CSS3, and Bootstrap
-- Built reusable UI component libraries adopted across multiple client projects, improving design consistency and development speed
-- Managed application state with Redux and maintained consistent frontend data flow across modules
-- Collaborated with designers and backend developers to integrate APIs and ship production-ready features through testing, debugging, and delivery cycles
-
-### Frontend Developer - Surfiq Technologies (Mar 2022 - Feb 2023)
-Lahore, Pakistan
-- Developed responsive frontend interfaces for client and internal web applications using React.js, Next.js, JavaScript, and TypeScript
-- Implemented responsive layouts with Material UI, Chakra UI, and Tailwind CSS, and integrated REST APIs for dynamic, data-driven workflows
-- Built reusable UI components and resolved UI defects in collaboration with cross-functional teams
+### Full Stack Developer - Nextbridge Ltd. (Aug 2019 - Sep 2021)
+Lahore, Punjab, Pakistan
+- Engineered real-time ticket booking and availability workflows supporting 4,000 concurrent users with transactional integrity (zero double-bookings)
+- Built organizer dashboards (schedules, pricing, registrations, sales analytics) in React, Redux, and Material UI
+- Developed Node.js and Django REST APIs for user management, events, and ticketing, with JWT authentication and secure session handling
+- Designed PostgreSQL schemas and optimized complex Django ORM queries
 
 ## Independent Projects
 <!-- Projects outside of employment: freelance, open source, personal -->
-- **Datashake**: Enterprise data infrastructure platform - built the dashboard and data visualization layer end to end (React.js, Next.js, TypeScript)
-- **PodSkim**: AI podcast summarization product - built the streaming frontend for live LLM output, transcript views, and subscription flows
-- **Nejo AI**: AI product frontend - React/Next.js interface development as part of a team build
-- **Degree37**: Multi-tenant SaaS platform - role-based dashboard views and data-heavy tables (GraphQL, React.js)
-- **OrangeShine**: E-commerce marketplace - frontend development for storefront and catalog experiences as part of a team build
-- **BoxBaba**: Wholesale packaging e-commerce site - built the frontend independently
+None listed in the source documents.
 
 ## Technical Skills
 
 ### Programming & Frameworks
-- **JavaScript/TypeScript** (4+ years): React.js, Next.js, React Native
-- **Frontend**: HTML5, CSS3, Tailwind CSS, Material UI, Chakra UI, Bootstrap, Figma-to-code
-- **State & Data**: Redux, React Query, REST APIs, GraphQL, WebSocket, Firebase
-- **Backend Integration**: Node.js, Express.js, MongoDB, PostgreSQL, MySQL, DynamoDB
+- **Languages**: JavaScript, TypeScript, Python, SQL
+- **Backend**: Node.js, NestJS, Django, FastAPI, REST APIs, GraphQL, Celery, JWT Authentication, RBAC, Third-Party API Integrations
+- **Frontend**: React, Next.js, Redux, Material UI
+- **AI / LLM**: LLM Integration, RAG, LangChain, OpenAI, Ollama, OCR, AI Agents
+- **Databases**: PostgreSQL, Django ORM
 
 ### Domain Expertise
-- AI-powered SaaS products (streaming LLM UIs, AI intake automation with OCR/LLM extraction)
-- Data-heavy dashboards and data visualization
-- Healthcare platforms (patient/provider portals, real-time case tracking)
-- Multi-tenant SaaS and e-commerce platforms
+- Backend-heavy web platforms and APIs (REST, GraphQL, RBAC, auth)
+- Production LLM features (RAG, document extraction, AI agents)
+- Data pipelines and background job processing
+- Real-time/high-concurrency workflows (ticketing), ERP/multi-module systems, payments (Stripe)
 
 ### Software & Tools
-- AWS, Microsoft Azure, Google Cloud, Digital Ocean, Git, GitHub, GitLab, CI/CD, Jira, Postman, Technical Documentation, Feature Testing
+- AWS, Docker, Kubernetes, Terraform, CI/CD, ELK Stack, Stripe
 
 ## Publications
-<!-- List peer-reviewed publications, if any -->
 None.
 
 ## Awards
 None listed.
 
 ## Certifications
-- Certified React 18 Developer
-- React Native
+None listed.
 
 ## References
-- [NAME], [TITLE], [COMPANY] ([EMAIL], [PHONE])
-
-More references available upon request.
+None listed. References available upon request.

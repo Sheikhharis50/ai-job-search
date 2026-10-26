@@ -8,7 +8,7 @@ framework_version: 1.0.0
 <!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
 
 ## Overview
-No formal behavioral assessment (PI, DISC, Myers-Briggs, StrengthsFinder) has been completed yet. The observations below are *[Inferred from LinkedIn About - review before relying on this]* and should be replaced or confirmed once the user completes Section 6 (Behavioral Profile) of `/setup --section behavioral`, or a future `/setup` re-run.
+No formal behavioral assessment (PI, DISC, Myers-Briggs, StrengthsFinder) has been completed yet. The observations below are *[Inferred from LinkedIn Summary - review before relying on this]* and should be replaced or confirmed once the user completes Section 6 (Behavioral Profile) of `/setup --section behavioral`, or a future `/setup` re-run.
 
 ## Core Behavioral Drives
 
@@ -20,9 +20,10 @@ No formal behavioral assessment (PI, DISC, Myers-Briggs, StrengthsFinder) has be
 | [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
 
 ## Strongest Behaviors
-- **Outcome/impact-oriented framing** *[Inferred from LinkedIn About - review before relying on this]*: opens with a problem-first framing ("Slow interfaces lose users. Confusing dashboards lose customers.") and consistently backs claims with measurable results (load-time %, growth %, processing-time reduction).
-- **Comfortable owning ambiguous/technical problems** *[Inferred from LinkedIn About - review before relying on this]*: describes designing interfaces around streaming responses, model latency, and imperfect LLM outputs rather than avoiding that complexity.
-- **Domain-technical bridge-building** *[Inferred from LinkedIn About - review before relying on this]*: explicitly connects the ML specialization from their degree to why AI product teams want to work with them ("I understand what's happening behind the API").
+- **Measurable-performance orientation** *[Inferred from LinkedIn Summary - review before relying on this]*: states "I care about clean architecture, measurable performance wins, and shipping things that people actually use" and backs nearly every claim with a number (70% processing cut, 2h to 30min deploys, 1s to 200ms queries).
+- **Production-reliability mindset** *[Inferred from LinkedIn Summary - review before relying on this]*: positions as the engineer teams call "when they want AI features in production, not just in a demo", and frames systems as staying "fast and reliable as they grow".
+- **Breadth across the stack** *[Inferred from LinkedIn Summary - review before relying on this]*: comfortable moving between backend, frontend, data pipelines, cloud/DevOps and applied AI within one engagement.
+- **Cross-team collaboration** *[Inferred from CV - review before relying on this]*: partnered with frontend, backend and data teams on reliability work.
 
 ## How You Work Best
 - [ENVIRONMENT_PREFERENCE_1]
@@ -36,7 +37,7 @@ No formal behavioral assessment (PI, DISC, Myers-Briggs, StrengthsFinder) has be
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- AI-powered product / AI features, streaming/real-time UI, data-heavy dashboards *[Inferred from LinkedIn About - review before relying on this]*
+- Production AI / LLM features, backend-heavy platforms, scalability, reliability, performance, ownership of end-to-end delivery *[Inferred from LinkedIn Summary - review before relying on this]*
 - [ANOTHER_KEYWORD]
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):

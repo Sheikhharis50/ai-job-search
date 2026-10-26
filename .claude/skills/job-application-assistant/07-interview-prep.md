@@ -41,40 +41,50 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## STAR Candidates (Complete Manually)
 
-### Datashake dashboard load-time optimization
-**Source:** CV/LinkedIn - Senior Frontend Developer, SlySol
-**What happened:** Built the dashboard and data visualization layer for Datashake, an enterprise data infrastructure platform, and cut initial load time by 80% through query optimization and virtualized rendering.
-**Why it matters:** Performance optimization, technical depth on a specific problem, measurable impact.
+### LLM document extraction pipeline
+**Source:** CV/LinkedIn - Senior Full Stack AI Engineer, SlySol
+**What happened:** Shipped LLM-powered document extraction using LangChain, RAG, OpenAI, Ollama, and OCR, processing 20,000 documents per month at 77% extraction accuracy.
+**Why it matters:** Production AI delivery, RAG/LLM trade-offs, accuracy and reliability questions.
 **S/T/A/R stub:**
 - Situation:
 - Task:
 - Action:
 - Result:
 
-### Healthcare portal replatforming
-**Source:** CV/LinkedIn - Senior Frontend Developer, SlySol
-**What happened:** Built the frontend for a healthcare platform's patient and provider portals with real-time case tracking, as part of a replatforming that contributed to 55% month-over-month growth and a 40% reduction in case processing time.
-**Why it matters:** Cross-functional collaboration on a replatforming effort, business-impact framing, real-time features.
+### Celery data pipelines across 80+ sources
+**Source:** CV/LinkedIn - Senior Full Stack AI Engineer, SlySol
+**What happened:** Automated data pipelines across 80+ external sources (extraction, validation, transformation), cutting manual processing by 70%.
+**Why it matters:** Backend architecture, scale, automation, ownership.
 **S/T/A/R stub:**
 - Situation:
 - Task:
 - Action:
 - Result:
 
-### Streaming UI for AI podcast summarization (PodSkim)
-**Source:** CV/LinkedIn - Senior Frontend Developer, SlySol
-**What happened:** Built streaming UI for PodSkim, rendering live LLM output without layout shift or dropped tokens.
-**Why it matters:** AI-product frontend expertise, handling streaming/asynchronous data, UX under technical constraints (model latency, imperfect outputs).
+### Deployment time cut from 2 hours to 30 minutes
+**Source:** CV/LinkedIn - Senior Full Stack AI Engineer, SlySol
+**What happened:** Containerized services and implemented Docker, Terraform, and CI/CD on AWS, cutting deploys by 75%; also reduced incident rate and downtime by 70% with cross-team partnership.
+**Why it matters:** DevOps/CI-CD, reliability, cross-functional collaboration.
 **S/T/A/R stub:**
 - Situation:
 - Task:
 - Action:
 - Result:
 
-### AI-powered intake automation (OCR + LLM extraction)
-**Source:** LinkedIn - Senior Frontend Developer, SlySol
-**What happened:** Built AI-powered intake automation converting unstructured documents (forms, scans, reports) into structured data using OCR and LLM-based extraction, for dental and healthcare practices.
-**Why it matters:** End-to-end ownership of an AI feature, translating ambiguous/messy input into structured product value.
+### Real-time ticketing for 4,000 concurrent users
+**Source:** CV/LinkedIn - Full Stack Developer, Nextbridge Ltd.
+**What happened:** Engineered real-time ticket booking and availability workflows with transactional integrity and zero double-bookings.
+**Why it matters:** Concurrency, data integrity, system design.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### ERP performance: Celery offloading and PostgreSQL tuning
+**Source:** CV/LinkedIn - Software Engineer, Programmer Force
+**What happened:** Designed a modular ERP suite for 120 users, cut API response times by 70% via Celery background jobs and query time from 1 s to 200 ms.
+**Why it matters:** Performance optimization, database design, measurable impact.
 **S/T/A/R stub:**
 - Situation:
 - Task:

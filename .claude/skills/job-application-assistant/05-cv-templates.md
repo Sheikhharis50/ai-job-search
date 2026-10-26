@@ -52,7 +52,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={Umer Riaz - CV},
+    pdftitle={Hamza Latif - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -62,13 +62,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{Umer}{Riaz}
+\name{Hamza}{Latif}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{Lahore, Pakistan}{}{}
-\phone[mobile]{+92-301-6254253}
-\email{umerriaz4774@gmail.com}
-\extrainfo{\href{https://www.linkedin.com/in/muhammadumarriaz/}{LinkedIn}, \href{https://github.com/MuhammadUmar740}{GitHub}, \href{https://umer-riaz.vercel.app/}{Portfolio}}
+\address{Lahore, Punjab, Pakistan}{}{}
+\phone[mobile]{+92-370-0591197}
+\email{hamzalatif.dev@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/hamzalatifdev}{LinkedIn}, \href{https://github.com/HamzaCodes05}{GitHub}}
 
 \begin{document}
 \makecvtitle
@@ -130,11 +130,11 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For AI-product / streaming-UI frontend roles:**
-> Senior Frontend Developer with 4+ years building the part of AI-powered SaaS products users actually touch: live data, streaming LLM output, and data-heavy dashboards. Built the dashboard and data visualization layer for Datashake, an enterprise data infrastructure platform, cutting initial load time by 80% through query optimization and virtualized rendering. Built streaming UI for an AI podcast summarization product handling live LLM responses without layout jank or dropped tokens, and AI-powered intake automation converting unstructured documents into structured data via OCR and LLM extraction. A CS background with a Machine Learning specialization means I design interfaces around streaming responses, model latency, and imperfect outputs rather than fighting them.
+**For AI / LLM engineering roles:**
+> Senior Full-Stack AI Engineer with 7+ years building backend-heavy platforms and production AI features. Shipped LLM-powered document extraction (LangChain, RAG, OpenAI, Ollama, OCR) processing 20,000 documents per month at 77% extraction accuracy, and automated data pipelines across 80+ external sources with Celery, cutting manual processing by 70%. Back the AI work with production engineering: REST and GraphQL APIs with RBAC at 10,000+ requests per day (300 ms p95) and AWS, Docker, Terraform CI/CD that cut deployment time from 2 hours to 30 minutes.
 
-**For general senior frontend / SaaS product roles:**
-> Senior Frontend Developer with 4+ years of experience building production web applications with React.js, Next.js, and TypeScript across healthcare, e-commerce, and multi-tenant SaaS products. Delivered a healthcare platform's patient and provider portals as part of a replatforming that drove 55% month-over-month growth and a 40% reduction in case processing time, and shipped multi-tenant SaaS dashboards with role-based views serving 100+ daily users. Comfortable owning frontend delivery end to end, from Figma-to-code through API integration to production.
+**For backend / full-stack roles (Node.js, NestJS, Python):**
+> Senior Full-Stack Engineer with 7+ years delivering backend-heavy web platforms with Node.js, NestJS, TypeScript, Django, and FastAPI, with React and Next.js on the front end. Delivered full-stack products across 20 client projects serving 10,000 users, designed a modular ERP suite used by 120 people, and cut API response times by 70% and PostgreSQL query time from 1 s to 200 ms. Own delivery end to end, from API and schema design through containerized AWS deployment and monitoring.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

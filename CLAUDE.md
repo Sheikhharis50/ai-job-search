@@ -1,10 +1,7 @@
-# Job Application Assistant for Umer Riaz
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Hamza Latif
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for Umer Riaz, helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Hamza Latif, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,87 +10,69 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** Umer Riaz
-- **Location:** Lahore, Pakistan (remote only, no relocation)
+- **Name:** Hamza Latif
+- **Location:** Lahore, Punjab, Pakistan (remote only, no relocation)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | English | Fluent / Professional |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** English <!-- English unless your market expects otherwise; /setup asks -->
+  | English | Fluent / Professional (assumed - confirm) |
+- **CV language:** English
 
-- **Status:** Employed (Senior Frontend Developer at SlySol), open to new opportunities
-- **LinkedIn headline:** "Senior Frontend Developer | React.js | Next.js | TypeScript"
+- **Status:** Employed (Senior Full Stack AI Engineer at SlySol), open to new opportunities
+- **LinkedIn headline:** "Senior Full-Stack Engineer | Node.js, NestJS, TypeScript, React/Next.js | Python, FastAPI | AWS | LLM & RAG | Open to Remote Roles"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **BSc in Computer Science (Machine Learning specialization)** (2018-2022) - National College of Business Administration and Economics, Lahore, Pakistan
+- **BSc in Computer Science** (Feb 2016 - Mar 2020) - University of Central Punjab (UCP), Lahore, Pakistan
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **Senior Frontend Developer** (Jul 2025 - Present) - **SlySol** (Lahore, Pakistan)
-  - Built the dashboard and data visualization layer for Datashake, an enterprise data infrastructure platform, cutting initial load time by 80% through query optimization and virtualized rendering
-  - Built streaming UI for PodSkim, an AI podcast summarization product, rendering live LLM output without layout shift or dropped tokens
-  - Built AI-powered intake automation converting unstructured documents into structured data using OCR and LLM-based extraction
-- **Associate Software Engineer** (Aug 2024 - Jul 2025) - **SlySol** (Lahore, Pakistan)
-  - Built responsive web interfaces using React.js, Next.js, TypeScript, and modern UI libraries
-  - Integrated APIs and used Redux for state management across multiple modules
-- **Frontend Web Developer** (Jun 2023 - May 2024) - **SolutionSurface** (Lahore, Pakistan)
-  - Built reusable UI component libraries adopted across multiple client projects
-- **Frontend Developer** (Mar 2022 - Feb 2023) - **Surfiq Technologies** (Lahore, Pakistan)
-  - Developed responsive frontend interfaces using React.js, Next.js, JavaScript, and TypeScript
+- **Senior Full Stack AI Engineer** (Apr 2023 - Present) - **SlySol** (Lahore, Punjab, Pakistan)
+  - Shipped LLM-powered document extraction (LangChain, RAG, OpenAI, Ollama, OCR) processing 20,000 documents per month at 77% extraction accuracy
+  - Led full-stack delivery (TypeScript, React, Django, FastAPI) across 20 client projects serving 10,000 users
+  - Automated Celery data pipelines across 80+ external sources, cutting manual processing by 70%
+  - Architected REST/GraphQL APIs with RBAC at 10,000+ requests per day (300 ms p95); cut deploy time from 2 hours to 30 minutes with Docker, Terraform, CI/CD on AWS
+- **Software Engineer** (Oct 2021 - Mar 2023) - **Programmer Force** (Lahore, Punjab, Pakistan)
+  - Designed a modular ERP suite (Inventory, HR, Finance, CRM) used by 120 users; cut API response times by 70% with Celery and query time from 1 s to 200 ms in PostgreSQL
+  - Built secure REST APIs (JWT, RBAC), integrated Stripe, added ELK-based centralized logging
+- **Full Stack Developer** (Aug 2019 - Sep 2021) - **Nextbridge Ltd.** (Lahore, Punjab, Pakistan)
+  - Built real-time ticketing for 4,000 concurrent users with zero double-bookings; React/Redux organizer dashboards; Node.js and Django REST APIs
 
 ### Technical Skills
-- **Primary:** React.js, Next.js, TypeScript, JavaScript (ES6+), Redux, GraphQL, REST APIs
-- **Secondary:** Node.js/Express, MongoDB/PostgreSQL/MySQL, React Native, WebSocket, Firebase
-- **Domain:** AI-powered SaaS product frontends, streaming/real-time LLM UI, data-heavy dashboards, healthcare and multi-tenant SaaS platforms
-- **Software:** AWS, Azure, GCP, Digital Ocean, Git/GitHub/GitLab, CI/CD, Jira, Postman
+- **Primary:** Node.js, NestJS, TypeScript, Python (Django, FastAPI), React/Next.js, REST APIs, GraphQL, PostgreSQL
+- **AI / LLM:** LangChain, RAG, OpenAI, Ollama, OCR, AI Agents
+- **Cloud & DevOps:** AWS, Docker, Kubernetes, Terraform, CI/CD, ELK Stack
+- **Other:** Celery, JWT/RBAC, Stripe, third-party API integrations, data pipelines
+- **Domain:** Backend-heavy web platforms, production LLM features, data pipelines, ERP/multi-module systems, real-time ticketing
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **Certified React 18 Developer**
-- **React Native**
+None listed.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
 None.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
 None listed.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
 No formal assessment completed. See `02-behavioral-profile.md` for LinkedIn-inferred observations (labeled and unverified).
-- **Strengths:** Outcome-oriented framing, comfortable owning ambiguous/technical problems (streaming data, imperfect LLM output), domain-technical bridge-building (ML background applied to AI product frontends)
+- **Strengths:** Measurable-performance orientation, production-reliability mindset, breadth across backend/frontend/cloud/AI
 - **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** Fast-moving, high-autonomy, ships-fast environments
+- **Thrives in:** [confirm with user]
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- AI-powered product features (streaming LLM UI, AI-driven automation)
-- Data-heavy dashboards and data visualization work
+- Production AI features (LLM integration, RAG, document extraction, agents) - inferred from LinkedIn, confirm
+- Clean architecture and measurable performance wins
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- AI/SaaS products: companies building AI-powered features (streaming UI, LLM-integrated products)
-- Broader SaaS/product companies: healthcare, e-commerce, multi-tenant SaaS
+- AI/LLM products and SaaS platforms (confirm with user)
+- Backend/platform-heavy product companies
+
+### Target Roles
+- Senior / Staff-track AI Engineer, Backend Engineer, and Full-Stack Engineer (Node.js/NestJS, Python/FastAPI)
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
 - Remote only (full-time or contract) - no relocation
-<!-- SUSPENDED 2026-09-07 by user request - do not enforce; keep the text so it can be re-enabled later.
-- Must have working-hours overlap with a UK, EU, UAE, or US team
--->
-- (working-hours-overlap constraint currently SUSPENDED - see commented rule above; remote roles are accepted regardless of the team's timezone until this is re-enabled)
+- Working-hours-overlap constraint is NOT enforced (carried over from the previous profile; confirm with user)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
