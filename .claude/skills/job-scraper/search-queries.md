@@ -26,43 +26,52 @@ Queries are grouped by priority. Write **each category in every language from yo
 
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: AI Product Frontend Engineering
+### Priority 1: Python Backend Engineering
 
-These match your strongest and most desired career direction: senior frontend roles building AI-powered product features.
-
-```
-site:linkedin.com/jobs "Senior Frontend Engineer" "AI" Remote
-site:linkedin.com/jobs "AI Product Engineer" Remote
-site:linkedin.com/jobs "LLM Frontend Engineer" Remote
-site:linkedin.com/jobs "Senior React Developer" Remote
-```
-
-### Priority 2: Frontend / Product Engineering (general)
-
-Broader senior frontend and product engineering roles.
+Your strongest direction: senior Python backend roles (FastAPI, Django).
 
 ```
-site:linkedin.com/jobs "Frontend Engineer" React Next.js Remote
-site:linkedin.com/jobs "Product Engineer" React TypeScript Remote
-site:linkedin.com/jobs "Senior Frontend Developer" Remote
+site:linkedin.com/jobs "Senior Python Backend Engineer" Remote
+site:linkedin.com/jobs "Senior Backend Developer" Remote
+site:linkedin.com/jobs "Senior FastAPI Engineer" Remote
+site:linkedin.com/jobs "Senior Django Developer" Remote
+site:linkedin.com/jobs "Senior Backend Engineer Python" Remote
 ```
 
-### Priority 3: Full Stack (React-leaning)
+### Priority 2: AI / LLM Integration & Agentic Engineering
 
-Adjacent roles you could pivot into.
-
-```
-site:linkedin.com/jobs "Full Stack Developer" React Node Remote
-site:linkedin.com/jobs "Full Stack Engineer" TypeScript Remote
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Production LLM integration and agentic software engineering.
 
 ```
-site:linkedin.com/jobs "React developer" Remote
-site:linkedin.com/jobs "Frontend Consultant" Remote
+site:linkedin.com/jobs "AI Engineer Python" Remote
+site:linkedin.com/jobs "LLM Engineer" Remote
+site:linkedin.com/jobs "Agentic Software Engineer" Remote
+site:linkedin.com/jobs "Senior Software Engineer LLM" Remote
+site:linkedin.com/jobs "AI Backend Engineer" Remote
+site:linkedin.com/jobs "Generative AI Engineer" Remote
+```
+
+### Priority 3: General Senior Software Engineering
+
+Function-equivalent titles across companies.
+
+```
+site:linkedin.com/jobs "Senior Software Engineer Python" Remote
+site:linkedin.com/jobs "Software Engineer Python" Remote
+site:linkedin.com/jobs "Platform Engineer Python" Remote
+site:linkedin.com/jobs "API Engineer" Remote
+```
+
+### Priority 4: Full Stack (Python + React) & Adjacent
+
+Adjacent roles with a React/Next.js frontend, plus technical leadership.
+
+```
+site:linkedin.com/jobs "Senior Full Stack Engineer Python React" Remote
+site:linkedin.com/jobs "Full Stack Developer Django React" Remote
+site:linkedin.com/jobs "Tech Lead Python" Remote
+site:linkedin.com/jobs "Staff Software Engineer Python" Remote
+site:linkedin.com/jobs "Software Engineer" Remote
 ```
 
 ## Location Filter

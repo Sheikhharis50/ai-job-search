@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** React.js, Next.js, TypeScript, JavaScript (ES6+), Redux, GraphQL, REST APIs, Tailwind CSS/Material UI/Chakra UI, streaming UI / real-time data, AI-powered product frontends (LLM output rendering, OCR/LLM document extraction)
-**Moderate match areas:** Node.js/Express, MongoDB/PostgreSQL/MySQL, React Native, AWS/Azure/GCP, WebSocket, Firebase
-**Weak match areas:** Deep backend/infra ownership, mobile-native development beyond React Native, non-JS backend languages
+**Strong match areas:** Python, FastAPI (async), Django, Flask, REST APIs, PostgreSQL/MySQL, Celery + Redis background jobs, microservices, JWT/OAuth2/RBAC, AWS (EC2, RDS, S3), Docker, GitHub Actions/CI/CD, LLM API integration (OpenAI, Claude, prompt pipelines)
+**Moderate match areas:** React, Next.js, TypeScript, third-party API integrations, agentic/LLM application patterns (prompt pipelines, fallbacks)
+**Weak match areas:** Go/Java/.NET/Rust backends, Kubernetes/large-scale infra ownership, ML model training/research, mobile-native development, GraphQL
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** Senior/mid-level frontend engineering roles, React/Next.js/TypeScript product work, AI-powered SaaS product frontends, data-heavy dashboard/data-visualization work
-**Moderate:** Full-stack roles with a React frontend + Node backend, healthcare/fintech/e-commerce SaaS domains
-**Entry-level:** Backend-heavy or infra/DevOps-focused roles
+**Strong:** Senior Python backend / full-stack engineering (FastAPI, Django) on SaaS platforms, API performance and microservices work, production LLM integration into existing backends
+**Moderate:** Full-stack roles with a React/Next.js frontend and Python backend, agentic software engineering roles, healthcare/fintech/logistics/eCommerce domains
+**Entry-level:** Pure frontend roles, ML research/model-training roles, infra/SRE-focused roles
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -112,19 +112,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- Progress toward Senior/Lead Frontend Engineer roles with an AI-product focus
-- Continue building AI-powered product frontends (streaming LLM UI, AI-driven automation features)
-- Grow ownership over dashboard/data-visualization and data-heavy product surfaces
+- Progress toward Senior/Lead Backend or Software Engineer roles with an AI/LLM-integration focus (incl. agentic software engineering)
+- Keep building production LLM features into real backends (prompt pipelines, fallbacks, cost control)
+- Grow ownership over backend architecture and taking MVPs to production scale
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: AI-powered features, streaming/real-time UI, data-heavy dashboards, greenfield product frontend work
+- Tasks that energize: production LLM integration, backend architecture, performance/cost optimization, taking an MVP to production scale
 - Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: high autonomy, fast-moving/ships-fast environment, minimal bureaucracy
+- Non-task factors: [YOUR_PREFERRED_ENVIRONMENT]
 
 **Life situation alignment:** Consider personal constraints:
 - **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
 - **Flexibility**: Remote only (full-time or contract), no relocation. ~~Requires full working-hours overlap with a UK, EU, UAE, or US team from Lahore, Pakistan.~~ **(working-hours-overlap requirement SUSPENDED 2026-09-07 by user request - do not apply it when scoring Location; remote roles pass regardless of the team's timezone. Text kept for easy re-enabling.)**
-- **Professional development**: Deepening AI-product frontend expertise (streaming UI, LLM-integrated features)
+- **Professional development**: Deepening production LLM / agentic backend expertise (prompt pipelines, reliability, cost per request)
 
 ### 6. Salary Benchmark (Optional)
 

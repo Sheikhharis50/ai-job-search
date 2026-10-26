@@ -1,4 +1,4 @@
-%% Example CV - Umer Riaz
+%% Example CV - Ahsan Ali
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
@@ -33,7 +33,7 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={Umer Riaz - CV},
+    pdftitle={Ahsan Ali - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -44,13 +44,13 @@
 \usepackage{needspace}
 
 % personal data
-\name{Umer}{Riaz}
+\name{Ahsan}{Ali}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
 \address{Lahore, Pakistan}{}{}
-\phone[mobile]{+92-301-6254253}
-\email{umerriaz4774@gmail.com}
-\extrainfo{\href{https://www.linkedin.com/in/muhammadumarriaz/}{LinkedIn}, \href{https://github.com/MuhammadUmar740}{GitHub}, \href{https://umer-riaz.vercel.app/}{Portfolio}}
+\phone[mobile]{+92-370-0591197}
+\email{ahsanali.dev12@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ahsanalidev}{LinkedIn}, \href{https://github.com/ahstraction}{GitHub}}
 
 \begin{document}
 
@@ -61,7 +61,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{Senior Frontend Developer with 4+ years of experience building production web applications with React.js, Next.js, and TypeScript, specializing in AI-powered SaaS products and data-heavy dashboards. Built the dashboard and data visualization layer for an enterprise data platform end to end, and delivered frontend work on healthcare, e-commerce, and multi-tenant SaaS products as part of distributed teams. Available for remote roles with full overlap of UK, EU, and Gulf working hours.}
+\small{Senior Python Backend Engineer with 7+ years of experience building SaaS, healthcare, and fintech platforms from first commit to production at 10,000+ users. Core stack: Python (FastAPI, Django), PostgreSQL, React/Next.js, and AWS with Docker and GitHub Actions. Rebuilt a core API on async FastAPI for 60\% faster responses and 25\% lower server cost, led a monolith-to-microservices migration that cut release cycles from 2 weeks to 3 days, and integrated OpenAI and Claude APIs into production backends through reusable prompt pipelines.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -71,15 +71,17 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{Frontend}: React.js, Next.js, TypeScript, JavaScript (ES6+), React Native, HTML5, CSS3
+\item \textbf{Languages}: Python, TypeScript
 
-\item \textbf{State \& Data}: Redux, React Query, REST APIs, GraphQL, WebSocket, Firebase
+\item \textbf{Backend}: FastAPI, Django, Flask, REST APIs, Microservices, Celery, JWT, OAuth2, RBAC, Third-Party API Integrations
 
-\item \textbf{UI \& Styling}: Tailwind CSS, Material UI, Chakra UI, Bootstrap, Figma-to-code
+\item \textbf{Frontend}: React, Next.js
 
-\item \textbf{AI Product Frontend}: Streaming LLM UI, OCR/LLM document extraction, data-heavy dashboards
+\item \textbf{AI / LLM}: OpenAI API, Claude API, LLM Integration, Prompt Engineering, Prompt Pipelines
 
-\item \textbf{Cloud \& Tooling}: AWS, Microsoft Azure, Google Cloud, Git, GitHub, CI/CD, Jira
+\item \textbf{Databases \& Caching}: PostgreSQL, MySQL, Redis
+
+\item \textbf{Cloud \& DevOps}: AWS (EC2, RDS, S3), Docker, GitHub Actions, CI/CD
 
 \end{itemize}
 
@@ -93,33 +95,36 @@
 
 % --- Most Recent Role ---
 \needspace{5\baselineskip}
-\item{\cventry{Jul 2025-Present}{Senior Frontend Developer}{SlySol}{Lahore, Pakistan}{}{\vspace{1pt}
+\item{\cventry{Jan 2025-Present}{Senior Full Stack Engineer}{SlySol}{Lahore, Punjab, Pakistan}{}{\vspace{1pt}
 \begin{itemize}
-    \item {Built the dashboard and data visualization layer for Datashake, an enterprise data infrastructure platform, cutting initial load time by 80\% through query optimization and virtualized rendering}
-    \item {Developed the frontend for a healthcare platform's patient and provider portals with real-time case tracking, contributing to 55\% month-over-month growth and a 40\% reduction in case processing time}
-    \item {Built streaming UI for an AI podcast summarization product, rendering live LLM output without layout shift or dropped tokens}
-    \item {Built AI-powered intake automation converting unstructured documents into structured data using OCR and LLM-based extraction}
+    \item {Architected and shipped 3 SaaS platforms on FastAPI, Django, React, and Next.js, sustaining 99.9\% uptime for 10,000+ active users}
+    \item {Integrated OpenAI and Claude APIs into production backends (content generation, automated summaries, AI-assisted workflows) through reusable prompt pipelines}
+    \item {Rebuilt the core API layer on async FastAPI, cutting average response time by 60\% and server spend by 25\%}
+    \item {Led the monolith-to-microservices migration, shrinking release cycles from 2 weeks to 3 days}
+    \item {Designed a JWT/OAuth2 role-based access system across 5 user roles, closing 3 security vulnerabilities flagged in an audit}
+    \item {Containerized all services with Docker and automated CI/CD via GitHub Actions, eliminating $\sim$80\% of manual deployment work}
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
 \needspace{5\baselineskip}
-\item{\cventry{Aug 2024-Jul 2025}{Associate Software Engineer}{SlySol}{Lahore, Pakistan}{}{\vspace{1pt}
+\item{\cventry{Feb 2022-Dec 2024}{Full Stack Software Engineer}{Code District}{Lahore, Punjab, Pakistan}{}{\vspace{1pt}
 \begin{itemize}
-    \item {Built responsive web interfaces using React.js, Next.js, TypeScript, and modern UI libraries}
-    \item {Integrated APIs and used Redux for state management across multiple modules}
-    \item {Converted Figma designs into clean, functional frontend experiences}
+    \item {Delivered 8+ full-stack applications (Django, Flask, React, PostgreSQL) for healthcare, finance, and logistics clients}
+    \item {Engineered a Celery and Redis pipeline processing 500K+ background jobs per day, reducing queue latency by 70\%}
+    \item {Introduced CI/CD across 3 environments, cutting deployment time from 45 minutes to under 8 ($\sim$82\% faster)}
+    \item {Migrated a legacy application to AWS (EC2, RDS, S3), raising availability from 85\% to 89\% SLA}
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Earlier Role ---
 \needspace{5\baselineskip}
-\item{\cventry{Jun 2023-May 2024}{Frontend Web Developer}{SolutionSurface}{Lahore, Pakistan}{}{\vspace{1pt}
+\item{\cventry{Sep 2019-Jan 2022}{Full Stack Engineer}{Devsinc}{Lahore, Punjab, Pakistan}{}{\vspace{1pt}
 \begin{itemize}
-    \item {Built reusable UI component libraries adopted across multiple client projects, improving design consistency and development speed}
-    \item {Managed application state with Redux and maintained consistent frontend data flow}
+    \item {Built and maintained 5+ eCommerce and SaaS applications (Python, Django, PostgreSQL) serving 20K+ end users}
+    \item {Integrated 15+ third-party REST APIs (payments, shipping, analytics) and cut page load time by 40\% through query and asset optimization}
 \end{itemize}}}
 
 \end{itemize}
@@ -132,9 +137,7 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{2018-2022}{BSc in Computer Science (Machine Learning specialization)}{National College of Business Administration and Economics}{Lahore, Pakistan}{}{\vspace{1pt}
-Machine Learning specialization.
-}}
+\item{\cventry{2016-2020}{BSc in Computer Science}{The University of Lahore}{Lahore, Pakistan}{}{}}
 
 \end{itemize}
 
@@ -146,17 +149,6 @@ Machine Learning specialization.
 \vspace{1pt}
 \begin{itemize}
 \item {English (fluent/professional).}
-\end{itemize}
-
-% ============================================================
-%     CERTIFICATIONS
-% ============================================================
-
-\section{Certifications}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{Certified React 18 Developer}}
-\item{\textbf{React Native}}
 \end{itemize}
 
 % ============================================================

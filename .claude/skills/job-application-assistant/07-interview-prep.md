@@ -41,40 +41,60 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## STAR Candidates (Complete Manually)
 
-### Datashake dashboard load-time optimization
-**Source:** CV/LinkedIn - Senior Frontend Developer, SlySol
-**What happened:** Built the dashboard and data visualization layer for Datashake, an enterprise data infrastructure platform, and cut initial load time by 80% through query optimization and virtualized rendering.
-**Why it matters:** Performance optimization, technical depth on a specific problem, measurable impact.
+### Async FastAPI API rebuild
+**Source:** CV/LinkedIn - Senior Full Stack Engineer, SlySol
+**What happened:** Rebuilt the core API layer on async FastAPI, cutting average response time by 60% and server spend by 25%.
+**Why it matters:** Performance optimization, cost awareness, technical depth, measurable impact.
 **S/T/A/R stub:**
 - Situation:
 - Task:
 - Action:
 - Result:
 
-### Healthcare portal replatforming
-**Source:** CV/LinkedIn - Senior Frontend Developer, SlySol
-**What happened:** Built the frontend for a healthcare platform's patient and provider portals with real-time case tracking, as part of a replatforming that contributed to 55% month-over-month growth and a 40% reduction in case processing time.
-**Why it matters:** Cross-functional collaboration on a replatforming effort, business-impact framing, real-time features.
+### Monolith-to-microservices migration
+**Source:** CV/LinkedIn - Senior Full Stack Engineer, SlySol
+**What happened:** Led the migration from a monolith to microservices, shrinking release cycles from 2 weeks to 3 days.
+**Why it matters:** Leadership, architecture decisions, delivery speed, managing risk in a live product.
 **S/T/A/R stub:**
 - Situation:
 - Task:
 - Action:
 - Result:
 
-### Streaming UI for AI podcast summarization (PodSkim)
-**Source:** CV/LinkedIn - Senior Frontend Developer, SlySol
-**What happened:** Built streaming UI for PodSkim, rendering live LLM output without layout shift or dropped tokens.
-**Why it matters:** AI-product frontend expertise, handling streaming/asynchronous data, UX under technical constraints (model latency, imperfect outputs).
+### Celery + Redis background-job pipeline
+**Source:** CV/LinkedIn - Full Stack Software Engineer, Code District
+**What happened:** Engineered a pipeline processing 500K+ background jobs per day, reducing queue latency by 70%.
+**Why it matters:** Scale, reliability, async processing, debugging under load.
 **S/T/A/R stub:**
 - Situation:
 - Task:
 - Action:
 - Result:
 
-### AI-powered intake automation (OCR + LLM extraction)
-**Source:** LinkedIn - Senior Frontend Developer, SlySol
-**What happened:** Built AI-powered intake automation converting unstructured documents (forms, scans, reports) into structured data using OCR and LLM-based extraction, for dental and healthcare practices.
-**Why it matters:** End-to-end ownership of an AI feature, translating ambiguous/messy input into structured product value.
+### OpenAI/Claude prompt pipelines in production
+**Source:** CV/LinkedIn - Senior Full Stack Engineer, SlySol
+**What happened:** Integrated OpenAI and Claude APIs into production backends (content generation, summaries, AI-assisted workflows) through reusable prompt pipelines.
+**Why it matters:** AI/LLM integration, designing for latency, cost per request and fallbacks, adding AI to an existing product safely.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### JWT/OAuth2 role-based access and audit fixes
+**Source:** CV/LinkedIn - Senior Full Stack Engineer, SlySol
+**What happened:** Designed a JWT/OAuth2 role-based access system across 5 user roles, closing 3 security vulnerabilities flagged in an audit.
+**Why it matters:** Security mindset, ownership, responding to audit findings.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### CI/CD and Docker automation
+**Source:** CV/LinkedIn - Senior Full Stack Engineer, SlySol / Full Stack Software Engineer, Code District
+**What happened:** Containerized all services with Docker and automated CI/CD via GitHub Actions (~80% less manual deployment work); earlier cut deployment time from 45 minutes to under 8 across 3 environments.
+**Why it matters:** DevOps ownership, process improvement, shipping reliably.
 **S/T/A/R stub:**
 - Situation:
 - Task:

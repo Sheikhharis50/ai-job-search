@@ -52,7 +52,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={Umer Riaz - CV},
+    pdftitle={Ahsan Ali - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -62,13 +62,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{Umer}{Riaz}
+\name{Ahsan}{Ali}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
 \address{Lahore, Pakistan}{}{}
-\phone[mobile]{+92-301-6254253}
-\email{umerriaz4774@gmail.com}
-\extrainfo{\href{https://www.linkedin.com/in/muhammadumarriaz/}{LinkedIn}, \href{https://github.com/MuhammadUmar740}{GitHub}, \href{https://umer-riaz.vercel.app/}{Portfolio}}
+\phone[mobile]{+92-370-0591197}
+\email{ahsanali.dev12@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/ahsanalidev}{LinkedIn}, \href{https://github.com/ahstraction}{GitHub}}
 
 \begin{document}
 \makecvtitle
@@ -130,11 +130,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For AI-product / streaming-UI frontend roles:**
-> Senior Frontend Developer with 4+ years building the part of AI-powered SaaS products users actually touch: live data, streaming LLM output, and data-heavy dashboards. Built the dashboard and data visualization layer for Datashake, an enterprise data infrastructure platform, cutting initial load time by 80% through query optimization and virtualized rendering. Built streaming UI for an AI podcast summarization product handling live LLM responses without layout jank or dropped tokens, and AI-powered intake automation converting unstructured documents into structured data via OCR and LLM extraction. A CS background with a Machine Learning specialization means I design interfaces around streaming responses, model latency, and imperfect outputs rather than fighting them.
+**For senior Python backend roles:**
+> Senior Python Backend Engineer with 7+ years building SaaS, healthcare, and fintech platforms from first commit to production at 10,000+ users. Rebuilt a core API on async FastAPI for 60% faster responses and 25% lower server cost, led a monolith-to-microservices migration that cut release cycles from 2 weeks to 3 days, and built a Celery and Redis pipeline processing 500K+ background jobs per day. Core stack: Python (FastAPI, Django), PostgreSQL, and AWS with Docker and GitHub Actions.
 
-**For general senior frontend / SaaS product roles:**
-> Senior Frontend Developer with 4+ years of experience building production web applications with React.js, Next.js, and TypeScript across healthcare, e-commerce, and multi-tenant SaaS products. Delivered a healthcare platform's patient and provider portals as part of a replatforming that drove 55% month-over-month growth and a 40% reduction in case processing time, and shipped multi-tenant SaaS dashboards with role-based views serving 100+ daily users. Comfortable owning frontend delivery end to end, from Figma-to-code through API integration to production.
+**For AI / LLM integration and agentic software engineering roles:**
+> Senior Software Engineer with 7+ years of Python backend experience, now focused on wiring OpenAI and Claude APIs into production backends through reusable prompt pipelines for content generation, summarization, and AI-assisted workflows. Cares about the production concerns demos skip: latency, cost per request, and fallbacks, backed by an async FastAPI rebuild that cut response time by 60% and server spend by 25%. Comfortable adding LLM features to an existing product without breaking it.
+
+**For full-stack (Python + React/Next.js) roles:**
+> Senior Full Stack Engineer with 7+ years of experience shipping SaaS platforms on FastAPI, Django, React, and Next.js, sustaining 99.9% uptime for 10,000+ active users. Owns delivery end to end: API design and JWT/OAuth2 role-based access, PostgreSQL, Docker containerization, and CI/CD automation with GitHub Actions that removed ~80% of manual deployment work.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 
