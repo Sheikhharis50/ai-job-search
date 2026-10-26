@@ -69,8 +69,8 @@ cover_letters/Cover_*.*
 !cover_letters/cover_example.tex
 
 # documents/ subfolder contents are personal — only README and folder structure are tracked
-documents/cv/**
-documents/linkedin/**
+!documents/cv/**
+!documents/linkedin/**
 documents/diplomas/**
 documents/references/**
 # Also where /interview saves its prep packs (interview_prep_<stage>.md): these
